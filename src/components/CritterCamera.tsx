@@ -14,20 +14,34 @@ const CritterCamera = ({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const startCamera = useCallback(async () => {
+    console.log('Attempting to start camera...');
     try {
+      // Check if getUserMedia is supported
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        throw new Error('Camera API not supported in this browser');
+      }
+
       const stream = await navigator.mediaDevices.getUserMedia({
         video: {
           facingMode: 'environment'
         }
       });
+      
+      console.log('Camera stream obtained successfully');
+      
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
         streamRef.current = stream;
         setIsActive(true);
         setHasPermission(true);
+        console.log('Video element configured successfully');
+      } else {
+        console.error('Video ref is null');
       }
     } catch (error) {
       console.error('Camera access error:', error);
+      console.error('Error name:', error.name);
+      console.error('Error message:', error.message);
       setHasPermission(false);
     }
   }, []);
