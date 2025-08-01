@@ -87,7 +87,7 @@ const CritterCamera = ({
 
         <div className="flex gap-3 justify-center">
           {!isActive ? <button onClick={startCamera} disabled={isLoading} className="btn-comic px-6 py-3 font-bangers text-lg flex items-center gap-2">
-              <Camera className="w-5 h-5 bg-gray-800" />
+              <Camera className="w-5 h-5" />
               Start Camera
             </button> : <>
               <button onClick={captureImage} disabled={isLoading} className="btn-hero px-8 py-3 font-bangers text-xl flex items-center gap-2 animate-pulse-glow">
