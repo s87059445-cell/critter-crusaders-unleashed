@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-## Project info
+# 🦗 Critter Crusaders Unleashed 🦸‍♂️
 
-**URL**: https://lovable.dev/projects/65852fd9-4686-4133-8bb2-ec85983e1b63
+## Basic Details
+### Team Name: [Damn.k]
 
-## How can I edit this code?
+### Team Members
+- [Niranjana] - [St joseph's College Devagiri]
+- [Deol] - [St joseph's College Devagiri]
 
-There are several ways of editing your application.
+### Project Description
+Critter Crusaders Unleashed is an innovative web application that transforms ordinary insects into epic superheroes through AI-powered storytelling. Using computer vision and natural language processing, the app captures insects via camera, identifies them, and generates personalized superhero origin stories with interactive comic-style animations and immersive voice narration.
 
-**Use Lovable**
+### The Problem (that doesn't exist)
+Ever wondered what superpowers your backyard bugs would have? What if that ant you just stepped on was actually "Ant-Man 2.0" with the power of microscopic telepathy? What if that butterfly was secretly "The Monarch of Metamorphosis" with reality-bending wing flaps? The world needs to know about these unsung heroes of the insect kingdom!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65852fd9-4686-4133-8bb2-ec85983e1b63) and start prompting.
+### The Solution (that nobody asked for)
+We've created a magical portal where every creepy crawly becomes a legendary superhero! Our AI-powered system doesn't just identify insects - it transforms them into epic characters with origin stories, powers, weaknesses, and even nemeses. Complete with animated comic panels, deep forest voice narration, and interactive superhero transformation sequences that would make Stan Lee proud!
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technical Details
+### Technologies/Components Used
+For Software:
+- **Frontend Framework**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with custom animations
+- **UI Components**: Radix UI primitives
+- **Camera Integration**: Web MediaDevices API
+- **Voice Narration**: Web Speech API with custom audio processing
+- **Audio Effects**: Web Audio API for forest ambiance and voice filters
+- **Animations**: CSS keyframes and transitions
+- **State Management**: React Hooks (useState, useRef, useEffect)
+- **Build Tool**: Vite
+- **Package Manager**: npm
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### Installation
+```bash
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install dependencies
+npm install
 ```
 
-**Edit a file directly in GitHub**
+#### Run
+```bash
+# Start development server
+npm run dev
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Build for production
+npm run build
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
 
-## What technologies are used for this project?
 
-This project is built with:
+## Project Documentation
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Screenshots
 
-## How can I deploy this project?
+![Camera Interface](screenshots/camera-interface.png)
+*The main camera interface with insect detection radar and superhero transformation overlay*
 
-Simply open [Lovable](https://lovable.dev/projects/65852fd9-4686-4133-8bb2-ec85983e1b63) and click on Share -> Publish.
+![Story Generation](screenshots/story-generation.png)
+*AI-generated superhero story with comic book styling and voice narration controls*
 
-## Can I connect a custom domain to my Lovable project?
+![Groot Narrator](screenshots/groot-narrator.png)
+*Immersive Groot-style storytelling with animated comic panels and forest ambiance*
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Demo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Video Demo
+[Add your demo video link here]
+*Demonstrates the complete user journey from insect capture to superhero story generation with voice narration*
+
+### Live Demo
+[Add live demo link here]
+*Experience the full Critter Crusaders Unleashed application in action*
+
+## Team Contributions
+
+### Niranjana (Team Member)
+- Development
+
+### Deol (Team Member)
+- Development
+
+
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
+
